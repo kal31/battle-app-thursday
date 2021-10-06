@@ -101,7 +101,7 @@ RSpec.configure do |config|
 ENV['RACK_ENV'] = 'test'
 
 require File.join(File.dirname(__FILE__), '..', 'app.rb')
-
+require '/Users/mohammedmiah/battle_app/spec/features/web_helpers.rb'
 require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
@@ -109,3 +109,4 @@ require 'rspec'
 Capybara.app = Battle
 
 end
+
