@@ -5,3 +5,4 @@ feature 'Veiw hit points' do
         expect(page).to have_content 'Amin: 100HP'
     end
 end
+
