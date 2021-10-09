@@ -1,12 +1,4 @@
-<h1><%= @player_1_name %> vs. <%= @player_2_name %> </h1>
+<%= @player_1_name %> vs. <%= @player_2_name %> 
 
-
-<%= @player_2_name %>: 60HP
-
-<h1><a href="/attack">Attack</a> </h1>
-
-
-<!-- alternative play.erb -->
-<!-- <form action="/attack">
-    <input type="submit" value="Attack">
-  </form> -->
+<%= "#{@player_2_name}: #{@player_2_hp}"%>
+<a href="/attack">Attack</a> 
